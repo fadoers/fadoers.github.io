@@ -6,7 +6,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
 
-[Link to index.1]('./document/2017-3-17').
+[Link to index.1](./document/2017-3-17).
 
 There should be whitespace between paragraphs.
 
