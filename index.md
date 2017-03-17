@@ -6,6 +6,8 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
 
+[Link to index.1]('./document/2017-3-17').
+
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
@@ -35,6 +37,19 @@ var fun = function lang(l) {
 GitHubPages::Dependencies.gems.each do |gem, version|
   s.add_dependency(gem, "= #{version}")
 end
+```
+
+```java
+#java code with syntax highlighting
+public class SayHello{
+	static{
+		System.out.println("Hello world");
+	}
+	
+	public static void main(String args[]){
+		SayHello sayHello = new SayHello();
+	}
+}
 ```
 
 #### [](#header-4)Header 4
