@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #version
 version: "1.0"
 
@@ -41,3 +42,10 @@ sass:
 
 # 百度统计设置
 # baidu_analysis:
+=======
+title: Time Machine theme
+description: Time Machine is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-time-machine
+>>>>>>> 58314932199b12815f32c74d9a16373ac10cf235
