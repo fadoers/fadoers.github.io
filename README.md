@@ -1,34 +1,74 @@
-基于jekyll博客应用主题
-===
+# Particle Jekyll Theme
 
-pithy是一款适用于jekyll的博客应用主题，基于bootstrap前端框架开发。本着简约的视觉效果设计，目的是希望博客的浏览者能够更多的看到博客内容。
+![](./particle.jpg)
 
-使用说明
-===
+This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
 
-本主题是自由，免费，开源的，你可以克隆为新的仓库作为自己的博客。当然，在克隆仓库时为本主题加颗星，在使用时注明power by pithy，那将是对我最大的支持和鼓励。
+The Theme features:
 
-主题效果
-===
-- 首页
-- 
-![首页](http://7xlgu7.com1.z0.glb.clouddn.com/pithy-index.jpg)
+- Gulp
+- SASS
+- Sweet Scroll
+- Particle.js
+- BrowserSync
+- Font Awesome and Devicon icons
+- Google Analytics
+- Info Customization
 
-- 列表
-- 
-![列表](http://7xlgu7.com1.z0.glb.clouddn.com/pithy-list.jpg)
+## Basic Setup
 
-- 文章
-- 
-![文章](http://7xlgu7.com1.z0.glb.clouddn.com/pithy-post.jpg)
+1. [Install Jekyll](http://jekyllrb.com)
+2. Fork the [Particle Theme](https://github.com/nrandecker/particle/fork)
+3. Clone the repo you just forked.
+4. Edit `_config.yml` to personalize your site.
 
-反馈
-===
+## Site and User Settings
 
-在你浏览或使用本主题时，发现问题或者是有好的建议，希望能够在这里给予反馈。
+You have to fill some informations on `_config.yml` to customize your site.
 
-[New Issue](https://github.com/guovz/pithy/issues/new)
+```
+# Site settings
+description: A blog about lorem ipsum dolor sit amet
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:3000" # the base hostname & protocol for your site
 
-License
-===
-[MIT License](https://github.com/guovz/pithy/blob/gh-pages/LICENSE.md)
+# User settings
+username: Lorem Ipsum
+user_description: Anon Developer at Lorem Ipsum Dolor
+user_title: Anon Developer
+email: anon@anon.com
+twitter_username: lorem_ipsum
+github_username:  lorem_ipsum
+gplus_username:  lorem_ipsum
+```
+
+**Don't forget to change your url before you deploy your site!**
+
+## Color and Particle Customization
+- Color Customization
+  - Edit the sass variables
+- Particle Customization
+  - Edit the json data in particle function in app.js
+  - Refer to [Particle.js](https://github.com/VincentGarreau/particles.js/) for help
+
+## Running the blog in local
+
+In order to compile the assets and run Jekyll on local you need to follow those steps:
+
+- Install [NodeJS](https://nodejs.org/)
+- Run `npm install`
+- Run `gulp`
+
+## Questions
+
+Having any issues file a [GitHub Issue](https://github.com/nrandecker/particle/issues/new).
+
+## License
+
+This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme anyway you want.
+
+## Credits
+
+This theme was partially designed with the inspiration from these fine folks
+- [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
+- [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
