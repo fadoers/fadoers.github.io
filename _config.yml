@@ -41,3 +41,5 @@ sass:
 
 # 百度统计设置
 # baidu_analysis:
+
+theme: jekyll-theme-minimal
