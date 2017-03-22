@@ -16,6 +16,6 @@ tag: blog
 
 
 <br>
-转载请注明：[刘凯的博客](http://fadoers) » [github + jekyll搭建个人博客](http://fadoers.github.io/2017/03/22/jekyll_blog/)  
+转载请注明：[刘凯的博客](http://fadoers) » [github + jekyll搭建个人博客](http://fadoers.github.io/2017/03/jekyll_blog/)  
 
 

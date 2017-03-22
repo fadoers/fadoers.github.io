@@ -46,7 +46,7 @@ PrintWriter writer = new PrintWriter(new OutputStreamWriter(out, "utf-8"));
 PrintStream print = new PrintStream(os, true, "utf-8");
 ```
 
-转载请注明：[刘凯的博客](http://fadoers) » [getOutputStream() has already been called for this response异常出现的原因和解决方法](http://fadoers.github.io/2017/03/22/outputstream/exception/) 
+转载请注明：[刘凯的博客](http://fadoers) » [getOutputStream() has already been called for this response异常出现的原因和解决方法](http://fadoers.github.io/2017/03/outputstream_exception/) 
 
 
 
