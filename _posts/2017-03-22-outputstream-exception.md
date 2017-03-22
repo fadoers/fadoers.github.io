@@ -1,8 +1,8 @@
 ---
 layout: post
 title: getOutputStream() has already been called for this response异常出现的原因和解决方法
-date: 2016-10-14 
-tags: 博客   
+date: 2017-03-22 
+tags: java/exception   
 ---
 
     今天在做导出excel功能时遇到了getOutputStream() has already been called for this response异常。
@@ -46,7 +46,7 @@ PrintWriter writer = new PrintWriter(new OutputStreamWriter(out, "utf-8"));
 PrintStream print = new PrintStream(os, true, "utf-8");
 ```
 
-转载请注明：[刘凯的博客](http://fadoers) » [github + jekyll搭建个人博客](http://fadoers.github.io/2017-03-22-jekyll_blog/) 
+转载请注明：[刘凯的博客](http://fadoers) » [getOutputStream() has already been called for this response异常出现的原因和解决方法](http://fadoers.github.io/2017/03/22/outputstream/exception/) 
 
 
 
