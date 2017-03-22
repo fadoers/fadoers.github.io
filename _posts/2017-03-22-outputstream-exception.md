@@ -31,7 +31,7 @@ PrintWriter writer = null;
 	}
 ```
 
-#### 解决方法一：
+### 解决方法一：
 
 ```
 //new一个PrintWriter
