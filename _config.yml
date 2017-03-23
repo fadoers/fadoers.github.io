@@ -44,7 +44,9 @@ ga:
 
 permalink: /:year/:month/:title/
 # Format
-# highlighter: rouge
+highlighter: rouge
+coderay:
+    coderay_tab_width : 4
 
 textColor: #FF0000
 
