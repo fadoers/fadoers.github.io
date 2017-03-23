@@ -28,13 +28,8 @@ os.flush();
 PrintWriter writer = null;
     try
     {
-<<<<<<< HEAD
         writer = response.getWriter();
         writer.write(text);
-=======
-		writer = response.getWriter();
-		writer.write(text);
->>>>>>> 8350ddb912539b69cbc59cf83a0c6702c182514f
     }
 ```
 
