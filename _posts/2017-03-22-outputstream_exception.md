@@ -9,8 +9,9 @@ tags: java/exception
   
     出现这个异常的原因是在response中既调用了getwriter()方法又调用了getOutputStream()方法，而这两个方法是相冲突的。
 	
-#### getOutputStream()方法调用：
-```
+### getOutputStream()方法调用：
+
+```java
 OutputStream os = null;
 WritableWorkbook wwb = null;
 os = response.getOutputStream();
@@ -20,8 +21,9 @@ wwb.write();
 os.flush();
 ```
 
-#### getWriter()方法调用：
-```
+### getWriter()方法调用：
+
+```java
 //为ajax请求返回验证信息时调用
 PrintWriter writer = null;
 	try
@@ -33,7 +35,7 @@ PrintWriter writer = null;
 
 ### 解决方法一：
 
-```
+```java
 //new一个PrintWriter
 ServletOutputStream out = response.getOutputStream();
 PrintWriter writer = new PrintWriter(new OutputStreamWriter(out, "utf-8"));
@@ -41,7 +43,7 @@ PrintWriter writer = new PrintWriter(new OutputStreamWriter(out, "utf-8"));
 
 ### 解决方法二：
 
-```
+```java
 //使用PrintStream替代getWriter()
 PrintStream print = new PrintStream(os, true, "utf-8");
 ```
