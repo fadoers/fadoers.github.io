@@ -26,11 +26,11 @@ os.flush();
 ```java
 //为ajax请求返回验证信息时调用
 PrintWriter writer = null;
-	try
-	{
-		writer = response.getWriter();
-		writer.write(text);
-	}
+    try
+    {
+	    writer = response.getWriter();
+	    writer.write(text);
+    }
 ```
 
 ### 解决方法一：
