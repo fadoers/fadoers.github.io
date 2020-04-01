@@ -1,10 +1,10 @@
 # Site settings
-title: 北忆寒 Blog
-SEOTitle: 北忆寒的博客 | BYH Blog
+title: LiYi Blog
+SEOTitle: 李忆的博客 | LiYi Blog
 header-img: img/home-bg.jpg
-email: liukai68343468@gmail.com
-description: "关于程序与设计 | BYH，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @BYH北忆寒 的个人博客，与你一起发现更大的世界。"
-keyword: "北忆寒, BYH, Byh, fadoers, @fadoers, 北忆寒的博客, BYH Blog, 博客, 个人网站, 互联网, java, 后端"
+email: 1160301653@qq.com
+description: "关于程序与设计 | LiYi，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @LiYi 的个人博客，与你一起发现更大的世界。"
+keyword: "李忆, LiYi, liyi, fadoers, @fadoers, 李忆的博客, LY Blog, 博客, 个人网站, 互联网, java, 后端"
 url: "https://www.zekyun.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -13,9 +13,9 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:
-zhihu_username:
-github_username:    fadoers
+weibo_username: 3209751172
+zhihu_username: li-yi-007
+github_username: fadoers
 twitter_username:
 #facebook_username:
 #linkedin_username:  firstname-lastname-idxxxx
@@ -79,13 +79,13 @@ netease_comment: false
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
 
 
 
