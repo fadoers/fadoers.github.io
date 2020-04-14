@@ -10,24 +10,25 @@ tags:
   - pattern design
 ---
 
-The importance of design patterns will not be repeated any more. In order to understand the usage scenarios and skills of various design patterns in depth, I intend to follow the steps of design patterns, realize a simple text editor from scratch, and use common design patterns to design codes as much as possible.
+设计模式的重要性不再复述，为了深入理解各种设计模式的使用场景和使用技巧，我打算跟随《设计模式》的脚步，从零开始，实现一个简单的文本编辑器，并尽可能的使用常用的设计模式去设计代码。
 
-This will be a series, from the most basic framework design to the compilation of functional codes of each module, and finally realize a simple, beautiful and easy-to-use text editor.
-
-### target
-
-1. Each chapter corresponds to a design mode
-2. Each design pattern has corresponding code implementation
-3. The final product is a workable and functional application
-4. The code will be synchronized to GitHub
+这将是一个系列，从最基础的框架设计，到各模块功能代码的编写，最终实现一个简洁美观易用的文本编辑器。
 
 
-### Catalog
+### 目标
+
+1. 每一个章节对应一种设计模式
+2. 每一个设计模式都有相应的代码实现
+3. 最终产物是一个可运行的，功能可靠的应用
+4. 代码会同步到github
+
+
+### 目录
 1. [Foreword: practice makes true knowledge](www.zekyun.com)
 
-### Related connection
+### 相关连接
 
-1. [github](github.com/fadoers)
+1. [github地址](github.com/fadoers)
 
 
 
